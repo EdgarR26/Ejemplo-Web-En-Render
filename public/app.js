@@ -10,7 +10,7 @@ if ('serviceWorker' in navigator) {
     });
   }
   
-  // Mostrar mensaje al instalar la app (es solo un ejemplo visual)
+  
   const installBtn = document.querySelector('.install-btn');
   installBtn.addEventListener('click', () => {
     alert('¡App instalada con éxito! Ahora puedes usarla offline.');
